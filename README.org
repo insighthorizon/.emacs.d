@@ -1,0 +1,8 @@
+#+TITLE:Emacs init files and Org Babel functions
+
+* Description
+- Git repository tracking Emacs init files on different machines. There are multiple branches because some systems differ in their directory structure and that affects the paths which need to be referenced by an init file.
+- There are also Org Babel functions for some programming languages which don't work under Org Babel by default.
+  (Tt's only racket for now. Elisp is works in Org Babel by default.)
+* Rationale
+- It is easy to do an accidental change in the init file and to not even notice right away or to notice it when an error arises and then not being sure how to fix it or even whether the "fix" reverted the file into the exact state as before the accidental change.

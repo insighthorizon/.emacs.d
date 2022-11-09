@@ -1,0 +1,11 @@
+*.png
+*.svg
+*.log
+*ansi-term*
+*~
+\#*
+*#
+.*
+
+# also ignore all subdirectories
+*/
